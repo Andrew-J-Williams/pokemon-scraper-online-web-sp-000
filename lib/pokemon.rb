@@ -14,6 +14,8 @@ class Pokemon
       INSERT INTO pokemon(name, type)
       VALUES(?, ?)
     SQL
+
+    
   end
 
   def self.find
